@@ -618,7 +618,9 @@ a{
     }
 }
 
-
+.sect5-image1 {
+        background: url("./images/Rectangle47.png");
+    }
 .topnav a:hover
 {
     color: #fa4a0c;
