@@ -725,6 +725,13 @@ a{
         z-index: -1;
     }
     
+    @media (max-width: 767px){
+        .sect5-image1 {
+            background: url("./images/Rectangle47.png");
+        }
+    }
+    
+    
     .sect5-image1 {
         background: url("./images/Rectangle47.png");
     }
