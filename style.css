@@ -462,6 +462,7 @@ a{
     .btn-a {
         margin-right: 0px; 
         width: 70%;
+        border: 1px solid #FA4A0C;
     }
     .btn-ab
     {
