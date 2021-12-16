@@ -4,15 +4,7 @@ body{
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
 }
-.header-col2
-{
-    text-align:right;
-}
-.insec{
-    padding-top: 73px;
-    padding-bottom: 140px;
-}
-.content-wrapper
+.content-wrap
 {
     max-width: calc(1180px + 80px);
     padding-left: 40px;
@@ -20,7 +12,13 @@ body{
     margin-left:auto;
     margin-right:auto;
 }
-.header-main-row
+
+.in-section{
+    padding-top: 73px;
+    padding-bottom: 140px;
+}
+
+.header-main
 {
     display: inline-block;
     width:100%;
@@ -30,46 +28,8 @@ body{
     width:40%;
     float:left;
 }
-.header-col2
-{
-    width:60%;
-    float:left;
-}
-.topnav .icon {
-    display: none;
-  }
-.topnav a
-{
-    font-size: 16px!important;
-    color: #252B42;
-    text-decoration: none;
-}
-.wrapper-head
-{
-    max-width: 1300px;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-left:auto;
-    margin-right:auto;
-}
-.header-col2
-{
-    padding-top: 35px;
-    padding-bottom: 35px;
-} 
-.header-col2 a:active 
-{
-    color: #FA4A0C;
-}
-.header-col2 a
-{
-    margin: 50px;
-}  
-.inner-sec2
-{
-    text-align: center;
-}
-section#section-a .inner-sec {
+
+section#section-hero .inner-sec {
     position: relative;
     z-index: 11;
 }
@@ -203,20 +163,20 @@ a{
     letter-spacing: 0.1px;
     color: #FFFFFF;
 }
-#section-a h6{
+#section-hero h6{
     color: #F7F7F7;
     text-align: center;
 }
-#section-a p{
+#section-hero p{
     color: #F7F7F7;
 }
-.sec-inner-img
+.sec-img
 {
     position: relative;
     top: -190px;
     
 }
-.sec-inner-img
+.sec-img
 {
     text-align:center;
 }
@@ -226,7 +186,7 @@ a{
     width:100%;
     max-width:884px;
 }
-.sec-c-main
+.section-main
 {
     display: inline-block;
     width: 100%;
@@ -238,7 +198,7 @@ a{
     width:50%;
     float:left;
 }
-.sec-c-col1 {
+.section-col1 {
     width:40%;
     float:left;
 }
@@ -250,19 +210,19 @@ a{
     width:60%;
     float:left;
 }
-#section-a p
+#section-hero p
 {
     text-align: center;
 }
-#section-c h2 
+#section-2 h2 
 {
     text-align:center;
 }
-.sec-c-col1 , .sec-d-col2
+.section-col1 , .sec-d-col2
 {
     
 }
-#section-c p ,#section-e p , #section-d p
+#section-2 p ,#section-4 p , #section-3 p
 {
     color: #737373;
 }
@@ -276,8 +236,51 @@ a{
     max-width:940px;
     margin:0 auto;
 }
-#section-f p{
+#section-5 p{
     color: #FFFFFF;
+    text-align: center;
+}
+.header-col2
+{
+    text-align:right;
+}
+.header-col2
+{
+    width:60%;
+    float:left;
+}
+.topnav .icon {
+    display: none;
+  }
+.topnav a
+{
+    font-size: 16px!important;
+    color: #252B42;
+    text-decoration: none;
+}
+.wrapper-h
+{
+    max-width: 1300px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.header-col2
+{
+    padding-top: 35px;
+    padding-bottom: 35px;
+} 
+.header-col2 a:active 
+{
+    color: #FA4A0C;
+}
+.header-col2 a
+{
+    margin: 50px;
+}  
+.inner-section2
+{
     text-align: center;
 }
 .btn-a1
@@ -308,7 +311,7 @@ a{
     display: inline-block;
     text-decoration: none;
 }
-#section-f h3{
+#section-5 h3{
     color: #fff;
     text-align: center;
 }
@@ -316,17 +319,17 @@ a{
 {
     margin-top:-3px;
 }
-#section-c h2
+#section-2 h2
 {
     margin-top: 18px;
     margin-bottom: 18px;
 }
-#d-main 
+#section3-main 
 {
     padding-top:0px!important;
     padding-bottom:0px!important;
 }
-#e-main
+#section4-main
 {
     padding-top:0px!important;
     padding-bottom:50px!important;
@@ -338,28 +341,28 @@ a{
         padding-top:20px;
         padding-bottom: 20px;
     }
-    .mob-view
+    .mobile
     {
         display:block;
     }
-    .desk-view
+    .desktop
     {
         display: none;
     }
     img{
         max-width:100%;
     }
-    .wrapper-head
+    .wrapper-h
     {
         padding-left:20px;
         padding-right:20px;
     }
-    .sec-c-main
+    .section-main
     {
         padding-bottom: 0px;
         padding-top: 0px;
     }
-    .content-wrapper
+    .content-wrap
     {
         padding-left: 20px;
         padding-right: 20px;
@@ -400,13 +403,13 @@ a{
     {
         width:100%;
     }
-    .sec-c-col1 {
+    .section-col1 {
         width:100%;
     }
     .sec-c-col2{
         width:100%;
     }
-    .bg-image
+    .container
     {
         background: #FAFAFA;
     }
@@ -427,16 +430,16 @@ a{
         text-align: center;
         letter-spacing: 0.1px;                 
     }
-    #section-a h6
+    #section-hero h6
     {
         color: #737373;
     }
-    #section-a h1
+    #section-hero h1
     {
         padding-top:10px;
         padding-bottom:10px;
     }
-    #section-a p{
+    #section-hero p{
         color: #737373;
     }
     .btn-ab {
@@ -455,7 +458,7 @@ a{
         margin-top: 10px;
         width: 70%;
     }
-    .sec-inner-img {
+    .sec-img {
         position: relative;
         top: -148px;
         
@@ -467,13 +470,13 @@ a{
     .mob{
         padding-top:40px!important;
     }
-    #section-a .btn-a{
+    #section-hero .btn-a{
         box-shadow: 0px 40px 40px rgb(0 0 0 / 7%);
     }
-    .mob-view1{
+    .mobile1{
         filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
     }
-    #section-c img , #section-d img , #section-e img
+    #section-2 img , #section-3 img , #section-4 img
     {
         filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
     }
@@ -482,14 +485,14 @@ a{
         padding-top: 30px;
         padding-bottom: 0px;
     }
-    #section-e .sec-c-col2 {
+    #section-4 .sec-c-col2 {
         padding-top: 30px;
     }
     .sec-c-col2 {
         padding-top: 0px; 
         padding-bottom: 0px; 
     }
-    .sec-c-col1 ,.sec-d-col2
+    .section-col1 ,.sec-d-col2
     {
         text-align: center;
     }
@@ -514,7 +517,7 @@ a{
     {
         font-size:16px;
     }
-    .bg-image1
+    .container1
     {
         background: #252B42;
     }
@@ -535,23 +538,23 @@ a{
         display: block;
         text-align: left;
     }
-    .footer-col2 , .footer-col3a
+    .footer-column2 , .footer-column3a
     {
         width:100%;
     }
-    .footer-col3 ,.footer-col1
+    .footer-column3 ,.footer-column1
     {
         display: none;
     }
-    .footer-col2 , .footer-col3
+    .footer-column2 , .footer-column3
     {
         padding: 10px 0px 10px 0px;
         text-align:center;
     }
-    .footer-col2 a{
+    .footer-column2 a{
         margin: 0 10px;
     }
-    .footer-col3a p{
+    .footer-column3a p{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -561,7 +564,7 @@ a{
         letter-spacing: 0.1px;
         color: #5C5C5C;
     }
-    .footer-col2
+    .footer-column2
     {
         max-width: 100%;
         margin: 0 auto;
@@ -576,7 +579,7 @@ a{
     .inner-sec1{
         text-align: center;
     }
-    .sec-inner-img img{
+    .sec-img img{
         max-width:100%;
     }
     .rev-sec
@@ -584,18 +587,18 @@ a{
         display: flex;
         flex-direction: column-reverse;
     }
-    .desk-view1
+    .desktop1
     {
         display: none;
     }
     .sec-c-col2 {
         max-width: 100%;
     }
-    .inner-sec2
+    .inner-section2
     {
         z-index: 1;
     }
-    #section-c h2
+    #section-2 h2
     {
         margin-bottom: 40px;
     }
@@ -605,11 +608,11 @@ a{
         top: 20px;
         text-decoration: none;
     }
-    #section-c .solid{
+    #section-2 .solid{
         position:absolute;
         left:0;
     }
-    #section-c
+    #section-2
     {
         margin-top:-134px;
     }
@@ -620,7 +623,7 @@ a{
 {
     color: #fa4a0c;
 }
-.inner-sec2 a{
+.inner-section2 a{
     text-decoration: none;
 }
 .btn-a:hover , .btn-a1:hover
@@ -685,36 +688,36 @@ a{
     .icon{
         display: none;
     }
-    .mob-view1
+    .mobile1
     {
         display: none;
     }
-    .footer-col3a{
+    .footer-column3a{
         display:none;
     }
    .sec-c-col2
     {
         margin-left:35px;
     }
-    #section-c
+    #section-2
     {
         margin-top: -110px;
     }
-    .sec-c-col1{
+    .section-col1{
         margin-left: -40px;
     }
-    .bg-image1
+    .container1
     {
-        background:url("./images/Rectangle47.png");
+        background:url("./Images/Rectangle47.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
         height: 470px;
         z-index: -1;
     }
-    .bg-image
+    .container
     {
-        background:url("./images/Rectangle.png");
+        background:url("./Images/Rectangle.png");
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -722,20 +725,20 @@ a{
         z-index: -1;
     }
     
-    .footer-col1 ,.footer-col2 , .footer-col3
+    .footer-column1 ,.footer-column2 , .footer-column3
     {
         width:32%;
     }
-    .footer-col2{
+    .footer-column2{
         text-align:center;
     }
-    .footer-col2 .fa
+    .footer-column2 .fa
     {
         color: #FA4A0C;
         text-decoration: none;
         padding: 10px;
     }
-    .footer-col2 .fa-facebook , .footer-col2 .fa-instagram
+    .footer-column2 .fa-facebook , .footer-column2 .fa-instagram
     {
         background: #FA4A0C;
         color: #fff;
@@ -745,14 +748,14 @@ a{
         display: flex;
         justify-content: space-between;
     }
-    .footer-col2 , .footer-col3
+    .footer-column2 , .footer-column3
     {
         padding: 27px 0px;
     }
-    .footer-col2 a{
+    .footer-column2 a{
         margin: 0 10px;
     }
-    .footer-col3 p{
+    .footer-column3 p{
         font-family: 'Montserrat', sans-serif;
         font-style: normal;
         font-weight: bold;
@@ -765,15 +768,15 @@ a{
     .inner-sec1 , .secf-b{
         display:none;
     }
-    .mob-view
+    .mobile
     {
         display:none;
     }
-    .desk-view
+    .desktop
     {
         display: block;
     }
-    #section-b img{
+    #section-1 img{
         padding-bottom: 80px;
     }
     .footer-main-row
@@ -781,7 +784,7 @@ a{
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    .inner-sec2
+    .inner-section2
     {
         display: flex;
         text-align: center;
@@ -790,11 +793,11 @@ a{
 }
 @media(min-width:768px) and  (max-width:783px)
     {
-        .bg-image
+        .container
         {
             height: 650px!important;
         }
-        .sec-inner-img {
+        .sec-img {
             position: relative;
             top: -153px!important;
         }
