@@ -17,6 +17,10 @@ body{
     padding-top: 73px;
     padding-bottom: 140px;
 }
+div#mynav a {
+    text-align: center;
+    margin-bottom: 5px;
+}
 
 .header-main
 {
