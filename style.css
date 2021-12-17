@@ -89,6 +89,14 @@ h3{
     /* text */
     color: #252B42;
 }
+
+@media (max-width: 767px)
+h3 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 38px;
+}
+
 h4{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
