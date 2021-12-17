@@ -452,6 +452,11 @@ a{
     background: #252B42;
     }
     
+    @media (max-width: 767px)
+    #section-hero p {
+    color: #737373;
+    line-height: 27px;
+}
     #section-hero h1
     {
         padding-top:10px;
